@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NytimesMostPopularApi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nytimes-most-popular-api',
+		displayName: 'Nytimes Most Popular API',
 		name: 'N8nDevNytimesMostPopularApi',
 		icon: { light: 'file:./nytimes-most-popular-api.png', dark: 'file:./nytimes-most-popular-api.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Get lists of NYT Articles based on shares, emails, and views',
-		defaults: { name: 'nytimes-most-popular-api' },
+		defaults: { name: 'Nytimes Most Popular API' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

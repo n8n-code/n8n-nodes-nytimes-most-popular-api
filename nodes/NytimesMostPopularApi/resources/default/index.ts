@@ -15,8 +15,8 @@ export const defaultDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Mostemailed Section Time Period Json",
-					"value": "GET Mostemailed Section Time Period Json",
+					"name": "GET Mostemailed Section Time Period JSON",
+					"value": "GET Mostemailed Section Time Period JSON",
 					"action": "Most Emailed by Section & Time Period",
 					"description": "Most Emailed by Section & Time Period",
 					"routing": {
@@ -27,8 +27,8 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Mostshared Section Time Period Json",
-					"value": "GET Mostshared Section Time Period Json",
+					"name": "GET Mostshared Section Time Period JSON",
+					"value": "GET Mostshared Section Time Period JSON",
 					"action": "Most Shared by Section & Time Period",
 					"description": "Most Shared by Section & Time Period",
 					"routing": {
@@ -39,8 +39,8 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Mostviewed Section Time Period Json",
-					"value": "GET Mostviewed Section Time Period Json",
+					"name": "GET Mostviewed Section Time Period JSON",
+					"value": "GET Mostviewed Section Time Period JSON",
 					"action": "Most Viewed by Section & Time Period",
 					"description": "Most Viewed by Section & Time Period",
 					"routing": {
@@ -67,13 +67,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostemailed Section Time Period Json"
+						"GET Mostemailed Section Time Period JSON"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -93,7 +93,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostemailed Section Time Period Json"
+						"GET Mostemailed Section Time Period JSON"
 					]
 				}
 			}
@@ -112,13 +112,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostshared Section Time Period Json"
+						"GET Mostshared Section Time Period JSON"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -138,7 +138,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostshared Section Time Period Json"
+						"GET Mostshared Section Time Period JSON"
 					]
 				}
 			}
@@ -157,13 +157,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostviewed Section Time Period Json"
+						"GET Mostviewed Section Time Period JSON"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -183,7 +183,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Mostviewed Section Time Period Json"
+						"GET Mostviewed Section Time Period JSON"
 					]
 				}
 			}

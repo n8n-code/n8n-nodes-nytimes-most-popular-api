@@ -8,7 +8,7 @@ import type {
 export class NytimesMostPopularApiApi implements ICredentialType {
 	name = 'N8nDevNytimesMostPopularApiApi';
 
-	displayName = 'nytimes-most-popular-api API';
+	displayName = 'Nytimes Most Popular API';
 
 	icon: Icon = { light: 'file:../nodes/NytimesMostPopularApi/nytimes-most-popular-api.png', dark: 'file:../nodes/NytimesMostPopularApi/nytimes-most-popular-api.dark.png' };
 
@@ -22,7 +22,7 @@ export class NytimesMostPopularApiApi implements ICredentialType {
 			default: 'http://api.nytimes.com/svc/mostpopular/v2',
 			required: true,
 			placeholder: 'http://api.nytimes.com/svc/mostpopular/v2',
-			description: 'The base URL of your nytimes-most-popular-api API server',
+			description: 'The base URL of your Nytimes Most Popular API server',
 		},
 		{
 			displayName: 'API Key',

@@ -53,9 +53,14 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get most emailed by section  time period, Get most shared by section  time period, Get most viewed by section  time period |
+<details>
+<summary><b>Default</b> (3 operations)</summary>
+
+- Get Most Emailed by Section Time Period
+- Get Most Shared by Section Time Period
+- Get Most Viewed by Section Time Period
+
+</details>
 
 ---
 
